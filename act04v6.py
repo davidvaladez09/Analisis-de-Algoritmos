@@ -4,7 +4,7 @@ from tkinter import filedialog
 from tkinter.scrolledtext import ScrolledText
 import time
 
-class CSVViewerApp:
+class EditarCadenaApp:
     def __init__(self, root):
         self.root = root
         self.root.configure(bg='black')
@@ -253,5 +253,5 @@ class CSVViewerApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = CSVViewerApp(root)
+    app = EditarCadenaApp(root)
     root.mainloop()
